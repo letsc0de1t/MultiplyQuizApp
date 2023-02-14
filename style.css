@@ -1,0 +1,55 @@
+body{
+    background-color: #222;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    background-color: antiquewhite;
+    height: 200px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+#innerContainer{
+    background-color: aliceblue;
+    height: 120px;
+    padding: 10px;
+}
+
+#line1{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+#line2{
+    display: flex;
+    flex-direction: column;
+}
+#question{
+    display: flex;
+}
+#answer{
+    margin: 10px;
+    
+}
+#submit{
+    margin: 10px;
+    font-weight: 600;
+    width: 70px;
+}
+.numbers{
+    margin-left: 5px;
+}

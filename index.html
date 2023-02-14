@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="head">
+            <div>Multiply Quiz App</div>
+        </div>
+        <div id="innerContainer">
+            <div id="line1">
+            <div id="question">
+                What is 
+                <div class="numbers" id="number1">2</div>
+                <div class="numbers"> x </div>
+                <div class="numbers" id="number2">8</div>
+                <div class="numbers">?</div>
+            </div>
+            <div >Score: <span id="score">0</span></div>
+            </div>
+            <div id="line2">
+                <input id="answer"/>
+                <button id="submit" onclick="submitAnswer()">
+                    Submit
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
